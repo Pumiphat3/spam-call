@@ -24,8 +24,8 @@ class MyCall {
 			echo $this->logo;
 			echo " \e[37m[\e[34m*\e[37m] Nomor \e[37m(\e[34m08\e[37m) : \e[33m";
 			$phone = trim(fgets(STDIN));
-			if(substr($phone, 0, 2) !== "08") {
-				throw new Exception("\n \e[31mMessage \e[37m: gunakan angka awalan 08\n\n");
+			if(substr($phone, 0, 2) !== "09") {
+				throw new Exception("\n \e[31mMessage \e[37m: gunakan angka awalan 09https://github.com/Kingtebe/spam-call.git\n\n");
 				exit(0);}
 
 			$url = "https://www.nutriclub.co.id/otp/?phone={$phone}&old_phone={$phone}";
